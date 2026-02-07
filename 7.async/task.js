@@ -69,7 +69,3 @@ class AlarmClock {
     }
 }
 
-// For Node.js testing
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = AlarmClock;
-}
