@@ -49,13 +49,3 @@ function getTriangle(a, b, c) {
         };
     }
 }
-
-// For Node.js testing
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {
-        parseCount,
-        validateCount,
-        Triangle,
-        getTriangle
-    };
-}
